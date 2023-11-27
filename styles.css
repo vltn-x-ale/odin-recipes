@@ -13,19 +13,33 @@ h3 {
     text-align: center;
 }
 
-p,
-ul,
-ol {
+p {
+    display: block;
+    text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+div {
     text-align: center;
 }
 
+ul,
+ol {
+    display: inline-block;
+    text-align: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
 li {
     margin-bottom: 20px;
-    text-align: 0;
 }
 
 img {
     display: block;
     margin: 0 auto;
+}
+
+ul>a {
+    text-align: center;
 }
